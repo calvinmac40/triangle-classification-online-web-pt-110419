@@ -13,7 +13,10 @@ class Triangle
     if (@side1 + @side2 <= @side3) || (@side2 + @side3 <= @side1) || (@side3 + @side1 <= @side2)
       raise TriangleError
       elsif 
-      @side1 <= 0) ||
+      (@side1 <= 0) || (@side2 <= 0) || (@side3 <= 0) 
+      raise TriangleError
+    else
+      (@side1 == @side2) && (@side2 == @side3)
   end
   end
   
