@@ -17,6 +17,7 @@ class Triangle
       raise TriangleError
     else
       (@side1 == @side2) && (@side2 == @side3)
+      :equilateral
   end
   end
   
