@@ -13,7 +13,7 @@ class Triangle
   def kind
     
   end
-  class TriangleError
+  class TriangleError < 
     
   end
   
